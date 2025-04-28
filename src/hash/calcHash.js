@@ -14,4 +14,3 @@ const calculateHash = async () => {
 };
 
 await calculateHash();
-await new Promise((resolve) => setTimeout(resolve, 3000));
